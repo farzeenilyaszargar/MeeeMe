@@ -3,3 +3,7 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
 
 #task-dialog .dialog-top,#groups-dialog .dialog-top{justify-content:flex-end}
+
+.group-name-color{display:grid;grid-template-columns:minmax(0,1fr) 55px;gap:14px}input[type=color]{width:55px;height:47px;padding:5px;cursor:pointer}.day-fill{display:flex;flex-direction:column-reverse;background:transparent;overflow:hidden}.day-column.today .day-fill{background:transparent}.day-segment{width:100%;flex-shrink:0}.group-stat{align-items:center}.group-color-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}.breakdown-row progress::-webkit-progress-value{background:var(--group-color,#ac8fbf)}.breakdown-row progress::-moz-progress-bar{background:var(--group-color,#ac8fbf)}
+
+.color-choices{display:flex;gap:9px;margin-top:13px;flex-wrap:wrap}.color-swatch{width:28px;height:28px;flex-shrink:0;border:3px solid #fdfcfe;border-radius:50%;box-shadow:0 0 0 1px transparent;padding:0}.color-swatch[aria-pressed=true]{box-shadow:0 0 0 1px #65536f}.color-swatch:hover{transform:scale(1.08)}
