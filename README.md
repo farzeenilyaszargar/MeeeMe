@@ -23,3 +23,7 @@ python3 -m http.server 5173 --directory dist --bind 127.0.0.1
 Open http://127.0.0.1:5173. No build step is required. Host the `dist` directory on any static web host. The `.openai/hosting.json` manifest configures private Sites hosting; no runtime services are used.
 
 Dates use your device's timezone. Weekly summaries run Monday through Sunday. Custom activity tags aggregate time across tasks; untagged tasks aggregate by task name within their group.
+
+## Vercel
+
+Import this GitHub repository with the repository root as the Root Directory. The included `vercel.json` selects the Other framework preset, skips build and dependency installation, and serves the existing `dist` directory. Pushes to `main` redeploy the site automatically when the Vercel Git integration is connected.
