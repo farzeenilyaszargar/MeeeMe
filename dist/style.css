@@ -29,3 +29,5 @@ button.empty{display:block;width:100%;cursor:pointer;transition:border-color .2s
 #edit-task{display:inline-flex;align-items:center;gap:5px}.edit-icon{width:13px;height:13px;flex-shrink:0}
 
 .finish-task{display:block;margin:5px auto 15px;padding:6px 12px}
+
+.day-segment{cursor:help;box-shadow:inset 0 1px 0 #ffffff55}.day-segment:hover{filter:brightness(1.12)}
