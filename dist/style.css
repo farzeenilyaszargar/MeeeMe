@@ -27,3 +27,5 @@ button.empty{display:block;width:100%;cursor:pointer;transition:border-color .2s
 .task-row.group-colored{background:var(--surface);border-color:color-mix(in srgb,var(--task-group-color) 35%,var(--surface))}.task-row.group-colored:hover{border-color:color-mix(in srgb,var(--task-group-color) 65%,var(--surface))}.task-row.group-colored.running{background:var(--surface);border-color:color-mix(in srgb,var(--task-group-color) 70%,var(--surface))}
 
 #edit-task{display:inline-flex;align-items:center;gap:5px}.edit-icon{width:13px;height:13px;flex-shrink:0}
+
+.finish-task{display:block;margin:5px auto 15px;padding:6px 12px}
