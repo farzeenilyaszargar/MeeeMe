@@ -24,4 +24,4 @@ button.empty{display:block;width:100%;cursor:pointer;transition:border-color .2s
 
 .group-option-label{display:flex;align-items:center;gap:9px;min-width:0}.picker-group-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}.select-label-text{min-width:0}.app-select-button .select-label-text{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
-.task-row.group-colored{background:color-mix(in srgb,var(--task-group-color) 7%,var(--surface));border-color:color-mix(in srgb,var(--task-group-color) 35%,var(--surface))}.task-row.group-colored:hover{border-color:color-mix(in srgb,var(--task-group-color) 65%,var(--surface))}.task-row.group-colored.running{background:color-mix(in srgb,var(--task-group-color) 12%,var(--surface));border-color:color-mix(in srgb,var(--task-group-color) 70%,var(--surface))}
+.task-row.group-colored{background:var(--surface);border-color:color-mix(in srgb,var(--task-group-color) 35%,var(--surface))}.task-row.group-colored:hover{border-color:color-mix(in srgb,var(--task-group-color) 65%,var(--surface))}.task-row.group-colored.running{background:var(--surface);border-color:color-mix(in srgb,var(--task-group-color) 70%,var(--surface))}
