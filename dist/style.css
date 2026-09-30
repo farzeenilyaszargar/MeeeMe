@@ -41,3 +41,5 @@ button.empty{display:block;width:100%;cursor:pointer;transition:border-color .2s
 :root{--completed-green:#16723c}[data-theme="dark"]{--completed-green:#197a43}[data-theme="coffee"]{--completed-green:#426a3f}[data-theme="ocean"]{--completed-green:#167455}[data-theme="cutesy"]{--completed-green:#36784e}.task-row.complete .task-marker{background:var(--completed-green);color:#ffffff}.task-row.complete .task-copy h3{text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:var(--muted)}.task-row.just-completed .task-marker{animation:task-tick-pop .4s ease both}@keyframes task-tick-pop{0%{transform:scale(.75);opacity:.4}65%{transform:scale(1.12);opacity:1}100%{transform:scale(1);opacity:1}}@media(prefers-reduced-motion:reduce){.task-row.just-completed .task-marker{animation:none}}
 
 #delete-task{display:inline-flex;align-items:center;gap:5px}.trash-icon{width:13px;height:13px;flex-shrink:0}
+
+#week-breakdown{margin-bottom:34px}
