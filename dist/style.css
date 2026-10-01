@@ -56,3 +56,5 @@ button.empty{display:block;width:100%;cursor:pointer;transition:border-color .2s
 .timer-content h2{font-size:32px;line-height:1.3;letter-spacing:-.8px}@media(max-width:600px){.timer-content h2{font-size:28px}}
 
 :root,[data-theme="light"]{--danger:#c94b4b}[data-theme="dark"]{--danger:#e87979}[data-theme="coffee"]{--danger:#b95448}[data-theme="ocean"]{--danger:#c65d66}[data-theme="cutesy"]{--danger:#cb5272}#timer-dialog{padding-top:18px}#timer-dialog .dialog-top{margin-bottom:2px}#timer-dialog .timer-content{padding:4px 3px 4px}#timer-dialog .timer-clock{margin-top:24px}#timer-dialog .finish-task,#timer-dialog .archive-task{margin-bottom:4px}#timer-dialog .goal-block{padding-top:12px}#timer-dialog #delete-task{color:var(--danger)}#timer-dialog #delete-task:hover{filter:none;opacity:.8}
+
+.weekly-heading{align-items:center}.weekly-heading .weekly-stat{text-align:right;margin:0;flex-shrink:0}.weekly-heading .weekly-stat strong{white-space:nowrap}@media(max-width:600px){.weekly-heading h1{font-size:clamp(25px,6vw,35px)}.weekly-heading .weekly-stat strong{font-size:clamp(24px,6vw,32px);letter-spacing:-1px}.weekly-heading .weekly-stat>span{font-size:10px}}
