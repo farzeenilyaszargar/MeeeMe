@@ -46,3 +46,5 @@ button.empty{display:block;width:100%;cursor:pointer;transition:border-color .2s
 .archive-task{display:block;margin:5px auto 15px;padding:6px 12px}
 
 #week-view .page-heading{margin-bottom:24px}.weekly-stat{margin-bottom:18px}.week-nav{margin:16px 0 20px}.weekly-groups{gap:8px;margin-top:18px}.group-stat{gap:9px;padding:8px 11px}.day-segment{box-shadow:inset 0 1px 0 #ffffff26}
+
+.day-segment{display:block;padding:0;border:0;border-radius:0;cursor:pointer;box-shadow:inset 0 1px 0 var(--surface)}.day-segment:hover{filter:brightness(1.15)}.chart-tooltip{position:fixed;inset:auto;margin:0;width:max-content;max-width:min(280px,calc(100vw - 24px));padding:14px 16px;border:1px solid var(--line);border-left:3px solid var(--tooltip-color);border-radius:10px;background:var(--surface);color:var(--ink);box-shadow:0 8px 30px var(--backdrop);pointer-events:none}.chart-tooltip:popover-open{display:grid;gap:5px}.chart-tooltip-title{font-size:14px;font-weight:500;overflow-wrap:anywhere}.chart-tooltip-meta{font-size:11px;color:var(--muted);overflow-wrap:anywhere}.chart-tooltip-time{font-size:16px;font-weight:500;font-variant-numeric:tabular-nums;margin:5px 0 2px}
