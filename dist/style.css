@@ -43,3 +43,5 @@ button.empty{display:block;width:100%;cursor:pointer;transition:border-color .2s
 #delete-task{display:inline-flex;align-items:center;gap:5px}.trash-icon{width:13px;height:13px;flex-shrink:0}
 
 #week-breakdown{margin-bottom:34px}
+
+.archive-task{display:block;margin:5px auto 15px;padding:6px 12px}
