@@ -64,3 +64,5 @@ button.empty{display:block;width:100%;cursor:pointer;transition:border-color .2s
 #task-dialog{padding-top:18px}#task-dialog .dialog-top{margin-bottom:6px}#task-dialog h2{margin-bottom:10px}#task-dialog label{margin-top:16px;margin-bottom:7px}#task-dialog .form-footer{margin-top:20px}#task-dialog .presets{margin-top:8px}
 
 .chart-tooltip{min-width:180px;max-width:min(230px,calc(100vw - 24px));padding:10px 12px;border-radius:8px}.chart-tooltip:popover-open{gap:3px}.chart-tooltip-title{font-size:12px}.chart-tooltip-time{font-size:13px;margin:3px 0 1px}.chart-tooltip-meta{font-size:10px}.chart-tooltip-tasks{gap:6px;padding-top:7px;margin-top:4px}.chart-tooltip-task{gap:12px}.chart-tooltip-task>div{gap:2px}.chart-tooltip-task-name{font-size:11px}.chart-tooltip-task-time{font-size:10px}
+
+.chart-tooltip-task-actions{display:flex;align-items:center;gap:5px;flex-shrink:0}.chart-remove-task{display:grid;place-items:center;width:22px;height:22px;padding:3px;margin-top:-4px;border:0;border-radius:4px;background:none;color:var(--danger)}.chart-remove-task svg{width:13px;height:13px}.chart-remove-task:hover{background:var(--soft);filter:none}
